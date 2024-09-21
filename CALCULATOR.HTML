@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        body{margin: 0;padding: 0;COLOR: WHITE;}
+.background-image{background: url("https://images.pexels.com/photos/3268386/pexels-photo-3268386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat ;
+background-size: cover;height: 139vh;}
+#main-container{display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.container1{    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; margin-top: 130px;
+    background: rgb(26 30 31 / 56%);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.6px);
+-webkit-backdrop-filter: blur(7.6px);
+border: 1px solid rgba(86, 81, 81, 0.86);
+    width: 380px;     border-radius: 22px;padding-bottom: 40px;padding-top: 20px;}
+    .HEADING H1{ color: #e98d3f; padding-bottom: 18px;font-size: 2.7rem;margin-right: 110px;}
+    .radion-button{font-size: 1.7rem;}
+    .radion-button .woodie{padding-bottom: 8px;padding-right: 160px;}
+    .input-box{padding: 25px 0px;font-size: 25px;padding-right: 48px}
+    .radion-button2{font-size: 1.6rem;padding-bottom: 27px;}
+    .radion-button2 .woodie3{padding-right: 242px;padding-bottom: 8px;}
+    .menu-container{    margin-right: 50.5px;
+        padding: 19px 0px;}
+    .input-box2 {    padding-right: 44px;
+        font-size: 25px;}
+    .input-box #number{  font-size: 16px;
+    border: none;
+    border-radius: 19px;
+    padding: 10px;    font-size: 16px;
+    border: none;
+    border-radius: 19px;
+    padding: 10px;
+    background: rgb(233 234 213 / 97%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(111 98 47 / 55%);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(2.0px);
+    border: 1px solid rgb(255 255 255);}
+    .input-box2 #number2{font-size: 16px;border: none;    font-size: 16px;
+    border: none;
+    border-radius: 19px;
+    padding: 10px;    font-size: 16px;
+    border: none;
+    border-radius: 19px;
+    padding: 10px;
+    background: rgb(233 234 213 / 97%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(111 98 47 / 55%);;
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(2.0px);
+    border: 1px solid rgb(255 255 255);}
+    .button #buttonf{        padding-left: 59px;
+    padding-right: 60px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 19px;    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 19px;
+    background: rgb(202 126 61);    padding-left: 59px;
+    padding-right: 60px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 19px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 19px;
+    background: rgb(202 126 61);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(69 47 27);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(2.0px);
+    border: 1px solid rgb(99 82 57);}
+    
+    .price #container h3{display: inline;color: #e98d3f;margin-left: 87px;}
+  #result{  display: inline;
+  }
+    .price{    padding-top: 20px;
+        font-size: 1.5rem;margin-right: 90px;}
+        #operation{  font-size: 17px;
+    padding: 2px;
+    background: rgb(233 234 213 / 97%);
+    border-radius: 9px;
+    box-shadow: 0 4px 30px rgb(111 98 47 / 55%);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(0.4px);
+    border: 1px solid rgb(255 255 255);}
+    .input-box{padding-right: 20px;}
+    .input-box2{padding-right: 20px;}
+    @media (max-width: 768px){
+        .container1{
+            width: 50%;
+            margin-top: 130px;
+        }
+    }
+    @media (max-width: 412px){
+        .container1{
+                width: 94%;
+            margin-top: 130px;
+        }
+        .background-image{height: 170vh;}
+    }
+    @media (max-width: 614px){
+        .container1{
+            width: 52%;
+            margin-top: 130px;
+        }
+    }
+    @media (max-width: 686px){
+        .container1{
+            width: 52%;
+            margin-top: 130px;
+        }
+    }
+    @media (max-width: 634px){
+        .container1{
+            width: 60%;
+            margin-top: 130px;
+        }
+    }
+    @media (max-width: 578px){
+        .container1{
+            width: 65%;
+            margin-top: 150px;
+        }
+    }
+    @media (max-width: 492px){
+        .container1{
+            width: 65%;
+            margin-top: 130px;
+        }
+        .background-image{height: 160vh;}
+    }
+    @media (max-width: 490px){
+        .container1{
+            width: 74%;
+            margin-top: 130px;
+        }
+        .background-image{height: 169vh;}
+        
+    }
+    @media (max-width: 450px){
+        .container1{
+            width: 74%;
+            margin-top: 130px;
+        }
+        
+        
+    }
+    @media (max-width: 449px){
+        .container1{
+            width: 79%;
+            margin-top: 130px;
+        }
+        } @media (max-width: 419px){
+        .container1{
+            width: 83%;
+            margin-top: 130px;
+        }}
+        @media (max-width: 400px){
+        .container1{
+            width: 89%;
+            margin-top: 130px;
+        }}
+        @media (max-width: 382px){
+        .container1{
+            width: 94%;
+            margin-top: 130px;
+        }}
+        @media (max-width: 365px){
+        .container1{
+            width: 98%;
+            margin-top: 130px;
+        }}
+        @media (max-width: 347px){
+        .container1{
+            width: 100%;
+            margin-top: 130px;
+        }
+        
+        
+    }
+
+    
+    </style>
+</head>
+<body> 
+    <!--BACKGROUND IMAGE DIV-->
+    <main>
+    <div class="background-image">
+    <section id="main-container">
+
+   
+        <!--WHITE CONTAINER -->
+        <div class="container1">
+            <!--HEADING DIV FOR STYLING-->
+            <div class="HEADING">
+    <h1>Flooring<br> Calculator</h1>
+            </div>
+            <!--RADIO BUTTON DIV-->
+            <div class="radion-button">
+                <!--DIV FOR INPUT BOX-->
+                <div class="woodie">
+    <input type="radio" id="wood" value="Solid Wood" name="floortype">
+<label for="wood" >Solid Wood</label>
+                </div>
+
+                <div class="woodie2">
+<input type="radio" id="wood1" value="Walnut" name="floortype">
+<label for="wood1" >Walnut</label><br>
+                </div>
+            </div>
+<!--INPUT BOX DIV-->
+            <div class="input-box">
+    <label for="number">Price</label>
+    <input type="number" id="number" name="number" placeholder="enter a number"><br>
+            </div>
+            <!--RADIO BUTTON DIV 2-->
+            <div class="radion-button2">
+                <!--DIV FOR INPUT BOX-->
+                <div class="woodie3">
+    <input type="radio" id="wood2" value="oak" name="floortype">
+    <label for="wood2" >Oak</label><br>
+                </div>
+                <!--DIV FOR INPUT BOX-->
+                <div class="woodie4">
+    <input type="radio" id="wood3" name="floortype" value="Marple">
+    <label for="wood3" >Maple Wood</label>
+                </div>
+            </div>
+
+            <!--INPUT BOX DIV 2-->
+            <div class="input-box2">
+    <label for="text">Price</label>
+    <input type="number" id="number2" name="number" placeholder="enter a number">
+            </div>
+            <!--MENU DIV-->
+            <div class="menu-container">
+                <div class="menu-option">
+    <select id="operation" style="    margin-left: 104px;
+    padding-right: 84px;
+    margin-right: 20px;">
+        <option value="addition">addition</option>
+        <option value="subtract">Subtraction</option>
+        <option value="multiply">multiplication</option>
+        <option value="divide">division</option>
+    </select>
+                </div>
+            </div>
+            <!--BUUTON DIV-->
+            <div class="button">
+    <button onclick="work()" id="buttonf">result</button>
+            </div>
+            <!--PRICE DIV-->
+            <div class="price">
+   <span id="container"><h3>Total Price:</h3> <p id="result"></p></span>
+            </div>
+        
+            <!--container div-->
+        </div>
+        <!--Background image DIV-->
+  
+    </section>
+    </div>
+    </main>
+    <script>
+ 
+
+        function work(){
+            let value1= parseFloat     (document.getElementById("number").value);
+            let value2= parseFloat    (document.getElementById("number2").value);
+      let operation=  document.getElementById("operation").value;
+            
+            let result;
+        
+        switch (operation) {
+            case "addition":
+                result = value1+value2;
+             break;
+                case "subtract":
+                result = value1-value2;
+                break;
+                case "divide":
+               if(value2!==0){
+                result=value1/value2
+               }else{
+                result="Can not Divide By zero";
+               }
+                break;
+                case "multiply":
+                result =  value1*value2;
+                break;
+    default:
+  result = "invalid value"
+                break;
+        }
+        document.getElementById("result").innerHTML=result
+        }
+    </script>
+</body>
+</html>
