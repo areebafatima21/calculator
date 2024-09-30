@@ -1,7 +1,7 @@
 # Flooring Calculator
 ## Live Preview
 
-You can see a live preview of the project [here](http://127.0.0.1:5500/calculator.html).
+You can see a live preview of the project [here](https://areebafatima21.github.io/calculator/).
 
 ## Description
 A web-based flooring calculator that allows users to estimate the cost of different flooring types. Users can select a type of wood and enter prices to get a total calculation.
